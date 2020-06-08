@@ -10,3 +10,11 @@ let modificarFrase = ["Na", "programação,",
 
 /* Em seguida, verifique o lenght do array, a saída terá que ser 10*/
 
+let fraseFragmentada = frase.split(' ');
+
+console.log (fraseFragmentada);
+console.log (fraseFragmentada.length);
+
+
+
+
