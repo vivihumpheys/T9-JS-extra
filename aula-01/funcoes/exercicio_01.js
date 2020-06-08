@@ -13,3 +13,10 @@ A {nome} {Sobrenome} mora em São Paulo / SP, no bairro Centro, na rua "Rua dos 
 nº 1293.
 
 O retorno deverá ser template string*/
+ 
+function nomeCadastro (nome, sobrenome){
+ return `A ${nome} ${sobrenome} mora em ${endereco.cidade}/ ${endereco.uf}, no bairro ${endereco.bairro}, 
+  na ${endereco.rua} com n. ${endereco.numero}`
+  }
+
+  console.log (nomeCadastro('Viviane', 'Miranda'));
