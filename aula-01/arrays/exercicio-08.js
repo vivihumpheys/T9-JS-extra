@@ -8,8 +8,9 @@ const tarefas = [{
   reuniao: {
     faculdade: "Segunda-feira",
     amigos: "Sexta-feira"
-  }
-}];
+  },
+},
+];
 
 /* Acesse a propriedade do objeto do terceiro item*/
 
