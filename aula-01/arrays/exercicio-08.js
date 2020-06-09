@@ -14,4 +14,12 @@ const tarefas = [{
 
 /* Acesse a propriedade do objeto do terceiro item*/
 
+<<<<<<< HEAD
 console.log (tarefas[0].reuniao.amigos);
+=======
+//variável auxiliadora para fazermos a analise
+let acessarTarefas = tarefas[0].reuniao;
+
+//acessar o primeiro item que contém a propriedade reunião.
+console.log(acessarTarefas)
+>>>>>>> e39ff83db64ec55467160ce2829450406d9b085e
