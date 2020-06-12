@@ -1,4 +1,5 @@
 const formulario = document.querySelector(".lista__form");
+const tabela = document.querySelector(".extrato__table");
 
 formulario.addEventListener("submit", function (evento) {
   evento.preventDefault();
